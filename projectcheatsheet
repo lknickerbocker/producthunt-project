@@ -1,0 +1,42 @@
+projectreadme
+install virtual invironment
+pip3 install virtualenv
+
+create virtual env: py -m venv env
+activate
+django-admin startproject 'project-name'
+navigate to project dir
+pip install django==2.2.*
+git init
+git add -A
+git commit -m "First Commit"
+test server
+python manage.py startapp blog
+python manage.py startapp jobs
+edit models.py to add fields
+migrate: let django know you have new apps & models to add to your databse
+python manage.py migrate #for apps
+add new apps to settings.py
+add media_root to settings.py
+add media_url to settings.py
+pip intall pillow
+python manage.py makemigrations #for models
+python manage.py migrate
+###make a superuser###
+python manage.py createsuperuser
+#################
+app folder: admin.py admin.site.register(Job)
+######
+add static url etc to urls.py
+######
+set up postgres
+######
+add database to settings.py
+######
+install missing packages
+######
+runserver
+
+
+git push origin master
+git pull origin master
