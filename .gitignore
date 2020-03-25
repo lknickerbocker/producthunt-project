@@ -7,9 +7,8 @@
 *.pot
 *.pyc
 __pycache__/
-portfolio/local_settings.py
-portfolio/local_settings.py.save
-portfolio/settings.py
+products/local_settings.py
+products/settings.py
 db.sqlite3
 db.sqlite3-journal
 /media
