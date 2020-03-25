@@ -9,8 +9,6 @@
 __pycache__/
 producthunt/local_settings.py
 producthunt/settings.py
-db.sqlite3
-db.sqlite3-journal
 /media
 /static
 
