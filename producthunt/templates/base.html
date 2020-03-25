@@ -1,4 +1,5 @@
 <!doctype html>
+{% load staticfiles %}
 <html lang="en">
 
   <head>
@@ -7,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
-    <title>lance knickerbocker</title>
+    <title>Product Hunt</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/album/">
 
@@ -39,7 +40,10 @@
     <header>
         <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand"><img height='25px' src="static/box.png">  Product Hunt</a>
+    <img hspace=10 class="d-inline-block align-top" height='25px' src="{% static 'box.png' %}"/>
+      
+      <div class="navbar-brand" hfref="#">Product Hunt</div>
+      
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
